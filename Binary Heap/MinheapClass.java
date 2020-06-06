@@ -2,7 +2,7 @@
 1. An array for storing heap elements
 2. size variable (integer)
 3. capacity variable (integer)
-
+*/
 Class MinheapClass
 { 
    int arr[];
