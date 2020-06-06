@@ -3,7 +3,7 @@
 2. size variable (integer)
 3. capacity variable (integer)
 */
-Class MinheapClass
+class MinheapClass
 { 
    int arr[];
    int size;
