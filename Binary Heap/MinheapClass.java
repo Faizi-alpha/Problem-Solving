@@ -28,7 +28,7 @@ Class MinheapClass
    
    int parent(int i)  // similarly, for parent
    {
-     Math.floor((i-1)/2);
+     return Math.floor((i-1)/2);
    }
    
    
