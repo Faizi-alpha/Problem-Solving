@@ -1,7 +1,7 @@
 // This program is for inserting an item in Binary Heap.
 // In memory, Heaps are represented as an array.
 
-Class MinheapClass
+class MinheapClass
 { 
    int arr[];
    int size;
