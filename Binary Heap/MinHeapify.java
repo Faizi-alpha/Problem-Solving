@@ -33,8 +33,8 @@ class MinHeapify
   int r = right(i);
   int smallest = i;
   
-  if(l < size && arr[l] < arr[i])  smallest = i;
-  if(r < size && arr[r] < arr[i]) smallest =i;
+  if(l < size && arr[l] < arr[smallest])  smallest = i;
+  if(r < size && arr[r] < arr[smallest]) smallest =i;
   
   if(smallest!=i)
   { 
