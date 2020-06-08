@@ -1,6 +1,6 @@
-// For comparing objects where you comparable in Java , where we have compareTo function.
+// For comparing objects we use comparable in Java , where we have compareTo function.
 
-// Here we implement comparable on PriorityQueue
+// Here we are implementing comparable on PriorityQueue as an example
 
 // Our Priority Queue is :- PriorityQueue<Triplet> pq = new PriorityQueue<Triplet>();
 
