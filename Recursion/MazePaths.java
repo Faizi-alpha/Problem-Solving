@@ -4,9 +4,7 @@
 import java.io.*;
 import java.util.*;
 
-class dr{
-	
-	static String[] arr = {"abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+class Git{
 	public static void main(String args[]) throws IOException {
 		
 //	    Use this for user input.
@@ -33,3 +31,4 @@ class dr{
 		PrintMazePaths(r,c+1,dr,dc,ans+"v");   // v for vertical move
 		
 	}
+}
