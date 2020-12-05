@@ -3,16 +3,18 @@
 import java.io.*;
 import java.util.*;
 
-class dr{
+class Git{
 	
 	static String[] arr = {"abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
-	public static void main(String args[]) throws IOException {
-		
-    keypad("23","");
-	}
+	public static void main(String args[]) throws IOException 
+	{
+	   //	    Use this for user input.
+	  //	 Scanner sc = new Scanner(System.in);
+         //	    String n = sc.next();
+	    	
+            keypad("23","");   // when pressed 23 
+	} 
 
-  
-	
 	public static void keypad(String s,String ans)
 	{		
 		if(s.length() == 0)
@@ -29,3 +31,4 @@ class dr{
 		}
 		
 	}
+}
