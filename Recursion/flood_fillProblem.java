@@ -43,3 +43,4 @@ class flood_fillProblem{
 		floodfill(maze,row,col+1,ans+"r",visited); // r -> right
 		visited[row][col] = false;  // Since we moved in all directions now we mark that that position as unvisited
 	}
+}
