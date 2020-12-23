@@ -1,6 +1,12 @@
 // In Insertion Sort, We assume the first element to be already sorted.
 // We compare elements with the previous ones and insert each element at their proper position in array
 
+// Performance of Algorithm:
+// Best Case : O(n)
+// Average and Worst Case: O(n^2)
+
+// Insertion sort is best among bubble and selection sort when the size of array is small.
+
 import java.io.*;
 import java.util.*;
 public class InsertionSort {
