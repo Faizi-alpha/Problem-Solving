@@ -18,7 +18,7 @@ public class BubbleSort {
 
 private static void bubble(int[] arr) {
 	
-	boolean flag = true; // flag is used to space some computations if remaining array is already sorted
+	boolean flag = true; // flag is used to save some computations if remaining array is already sorted
 	for(int i=0;i<arr.length-1;i++)
 	{
 		for(int j=0;j<arr.length-1-i;j++)
