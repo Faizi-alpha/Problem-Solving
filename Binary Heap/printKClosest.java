@@ -8,6 +8,11 @@ class pair{
     this.n1 = n1;
     this.n2 = n2;
   }
+
+	public Integer getKey() 
+    { 
+        return n1; 
+    } 
     
   public int getValue(){
     return n2;
@@ -28,7 +33,7 @@ class sol
     
     for(int i=0;i<k;i++)
     {
-      pq.offer(new pair(i,Math.abs(arr[i]-x)));
+      pq.offer(new pair(arr[i],Math.abs(arr[i]-x)));
     }
     
     for(int i = k;i<n;i++)
@@ -37,13 +42,13 @@ class sol
       if(p1.peek().getValue() > diff)
       {
         pq.poll();
-        pq.offer(new pair(i,diff));
+        pq.offer(new pair(arr[i],diff));
       }
     }
     
     while(!pq.isEmpty())
     {
-      System.out.print(pq.poll().getValue() + " ");
+      System.out.print(pq.poll().getKey() + " ");
     }
     
   }
